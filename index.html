@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Review Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🎓 English Review Test</h1>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressBar"></div>
+        </div>
+        <p class="instruction">Complete all exercises and click "Submit Test" to see your score</p>
+      </div>
+
+      <!-- Exercise 1 -->
+      <section class="exercise">
+        <h2>1 Circle the odd-one-out. Write.</h2>
+        <div class="odd-one-out">
+          <div class="row">
+            <span>tables</span>&nbsp;&nbsp;<span>pens</span>&nbsp;&nbsp;<span class="circled">skateboard</span>&nbsp;&nbsp;<span>chairs</span>
+            <input
+              type="text"
+              placeholder="Type answer here"
+              class="answer-input"
+              data-answer="skateboard"
+            />
+          </div>
+          <div class="row">
+            <span>hot</span>&nbsp;&nbsp;<span>computer</span>&nbsp;&nbsp;<span>cold</span>&nbsp;&nbsp;<span>happy</span>
+            <input
+              type="text"
+              placeholder="Type answer here"
+              class="answer-input"
+              data-answer="computer"
+            />
+          </div>
+          <div class="row">
+            <span>behind</span>&nbsp;&nbsp;<span>next-to</span>&nbsp;&nbsp;<span>between</span>&nbsp;&nbsp;<span>thirsty</span>
+            <input
+              type="text"
+              placeholder="Type answer here"
+              class="answer-input"
+              data-answer="thirsty"
+            />
+          </div>
+          <div class="row">
+            <span>nervous</span>&nbsp;&nbsp;<span>poster</span>&nbsp;&nbsp;<span>picture</span>&nbsp;&nbsp;<span>drawers</span>
+            <input
+              type="text"
+              placeholder="Type answer here"
+              class="answer-input"
+              data-answer="nervous"
+            />
+          </div>
+          <div class="row">
+            <span>tired</span>&nbsp;&nbsp;<span>scared</span>&nbsp;&nbsp;<span>CD-player</span>&nbsp;&nbsp;<span>sad</span>
+            <input
+              type="text"
+              placeholder="Type answer here"
+              class="answer-input"
+              data-answer="CD-player"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Exercise 2 -->
+      <section class="exercise">
+        <h2>2 Look and match. Ask and answer.</h2>
+        <div class="image-placeholder">
+          <p>🎨 Playground Scene: Rosy, Billy, Tim, slide, ball, bird</p>
+          <img src="playground-scene.png" alt="Playground Scene">
+        </div>
+        <div class="match">
+          <ol>
+            <li>
+              Where's the bird?
+              <input type="text" class="short-answer" data-answer="e" placeholder="a-e" />
+            </li>
+            <li>
+              Where's Rosy?
+              <input type="text" class="short-answer" data-answer="d" placeholder="a-e" />
+            </li>
+            <li>
+              Where's Billy?
+              <input type="text" class="short-answer" data-answer="c" placeholder="a-e" />
+            </li>
+            <li>
+              Where's the ball?
+              <input type="text" class="short-answer" data-answer="b" placeholder="a-e" />
+            </li>
+            <li>
+              Where's Tim?
+              <input type="text" class="short-answer" data-answer="a" placeholder="a-e" />
+            </li>
+          </ol>
+          <ul class="options">
+            <li><strong>a</strong> He's behind Rosy.</li>
+            <li><strong>b</strong> It's next to the box.</li>
+            <li><strong>c</strong> He's in front of Rosy.</li>
+            <li><strong>d</strong> She's between Tim and Billy.</li>
+            <li><strong>e</strong> It's on the slide.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Exercise 3 -->
+      <section class="exercise">
+        <h2>3 Tick (✓) the noun that contains the sound.</h2>
+        <div class="sound-tick">
+          <div class="sound-group" data-sound="a" data-correct="0">
+            <span class="sound-label">1 Sound: a</span>
+            <div class="pics">
+              <label>
+                <span class="pic-label">car</span>
+                <input type="checkbox" />
+              </label>
+              <label>
+                <span class="pic-label">bed</span>
+                <input type="checkbox" />
+              </label>
+            </div>
+          </div>
+          <div class="sound-group" data-sound="e" data-correct="0">
+            <span class="sound-label">2 Sound: e</span>
+            <div class="pics">
+              <label>
+                <span class="pic-label">peg</span>
+                <input type="checkbox" />
+              </label>
+              <label>
+                <span class="pic-label">jug</span>
+                <input type="checkbox" />
+              </label>
+            </div>
+          </div>
+          <div class="sound-group" data-sound="i" data-correct="1">
+            <span class="sound-label">3 Sound: i</span>
+            <div class="pics">
+              <label>
+                <span class="pic-label">bus</span>
+                <input type="checkbox" />
+              </label>
+              <label>
+                <span class="pic-label">pizza</span>
+                <input type="checkbox" />
+              </label>
+            </div>
+          </div>
+          <div class="sound-group" data-sound="o" data-correct="0">
+            <span class="sound-label">4 Sound: o</span>
+            <div class="pics">
+              <label>
+                <span class="pic-label">mop</span>
+                <input type="checkbox" />
+              </label>
+              <label>
+                <span class="pic-label">bin</span>
+                <input type="checkbox" />
+              </label>
+            </div>
+          </div>
+          <div class="sound-group" data-sound="u" data-correct="1">
+            <span class="sound-label">5 Sound: u</span>
+            <div class="pics">
+              <label>
+                <span class="pic-label">peg</span>
+                <input type="checkbox" />
+              </label>
+              <label>
+                <span class="pic-label">bus</span>
+                <input type="checkbox" />
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Exercise 4 -->
+      <section class="exercise">
+        <h2>4 Look and number.</h2>
+        
+        <div class="dialogue-boxes">
+          <div class="dialogue" data-number="1">
+            <span class="speech">Thank you. (1)</span>
+          </div>
+          <div class="dialogue" data-number="2">
+            <span class="speech">What's this in English? (2)</span>
+          </div>
+          <div class="dialogue" data-number="3">
+            <span class="speech">Can you spell it, please? (3)</span>
+          </div>
+          <div class="dialogue" data-number="4">
+            <span class="speech">You're welcome. (4)</span>
+          </div>
+          <div class="dialogue" data-number="5">
+            <span class="speech">It's a board. (5)</span>
+          </div>
+          <div class="dialogue" data-number="6">
+            <span class="speech">B-O-A-R-D. (6)</span>
+          </div>
+        </div>
+        <img src="teacher-board.png" alt="Teacher Scene">
+
+        <div class="teacher-scene">
+          <p>👨‍🏫 Teacher pointing to the word 'board' on the blackboard</p>
+        </div>
+
+        <div class="number-inputs">
+          <p><strong>Write the correct order:</strong></p>
+          <ol class="numbering">
+            <li>First: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="0"></li>
+            <li>Second: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="1"></li>
+            <li>Third: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="2"></li>
+            <li>Fourth: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="3"></li>
+            <li>Fifth: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="4"></li>
+            <li>Sixth: <input type="number" class="num-input" min="1" max="6" placeholder="#" data-position="5"></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Exercise 5 -->
+      <section class="exercise">
+        <h2>5 Write.</h2>
+        <div class="verbs">ride • play • fly</div>
+
+        <ol class="sentences">
+          <li>Alex can <u>ride</u> a bike.</li>
+          <li>But he can't <input type="text" class="fill-input" data-answer="ride" size="8" placeholder="____"> a horse.</li>
+          <li>He can <input type="text" class="fill-input" data-answer="play" size="8" placeholder="____"> football.</li>
+          <li>Ruby can <input type="text" class="fill-input" data-answer="fly" size="8" placeholder="____"> a kite.</li>
+          <li>She can <input type="text" class="fill-input" data-answer="play" size="8" placeholder="____"> tennis.</li>
+          <li>But she can't <input type="text" class="fill-input" data-answer="ride" size="8" placeholder="____"> a bike.</li>
+        </ol>
+      </section>
+
+      <!-- Exercise 6 -->
+      <section class="exercise">
+        <h2>6 Tick (✓) or cross (✗).</h2>
+        <p class="table-instruction">Based on Exercise 5, click cells to mark what each person can/can't do</p>
+        <table class="can-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>🚲 bike</th>
+              <th>⚽ football</th>
+              <th>🐴 horse</th>
+              <th>🪁 kite</th>
+              <th>🎾 tennis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="name-cell">Alex</td>
+              <td class="clickable" data-person="alex" data-activity="bike"></td>
+              <td class="clickable" data-person="alex" data-activity="football"></td>
+              <td class="clickable" data-person="alex" data-activity="horse"></td>
+              <td class="clickable" data-person="alex" data-activity="kite"></td>
+              <td class="clickable" data-person="alex" data-activity="tennis"></td>
+            </tr>
+            <tr>
+              <td class="name-cell">Ruby</td>
+              <td class="clickable" data-person="ruby" data-activity="bike"></td>
+              <td class="clickable" data-person="ruby" data-activity="football"></td>
+              <td class="clickable" data-person="ruby" data-activity="horse"></td>
+              <td class="clickable" data-person="ruby" data-activity="kite"></td>
+              <td class="clickable" data-person="ruby" data-activity="tennis"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Exercise 7 -->
+      <section class="exercise">
+        <h2>7 Complete using <strong>a</strong> or <strong>an</strong>.</h2>
+        
+        <div class="a-an-grid">
+          <div class="sentence-pair">
+            <div class="sentence">
+              <span>1</span> This is <input type="text" class="a-an-input" data-answer="an" size="4" placeholder="___"> orange.
+            </div>
+            <div class="sentence">
+              <span>2</span> I've got <input type="text" class="a-an-input" data-answer="a" size="4" placeholder="___"> bike.
+            </div>
+          </div>
+
+          <div class="sentence-pair">
+            <div class="sentence">
+              <span>3</span> He's got <input type="text" class="a-an-input" data-answer="a" size="4" placeholder="___"> skateboard.
+            </div>
+            <div class="sentence">
+              <span>4</span> This is <input type="text" class="a-an-input" data-answer="an" size="4" placeholder="___"> umbrella.
+            </div>
+          </div>
+
+          <div class="sentence-pair">
+            <div class="sentence">
+              <span>5</span> It's <input type="text" class="a-an-input" data-answer="an" size="4" placeholder="___"> apple.
+            </div>
+            <div class="sentence">
+              <span>6</span> She's got <input type="text" class="a-an-input" data-answer="an" size="4" placeholder="___"> egg.
+            </div>
+          </div>
+
+          <div class="sentence-pair">
+            <div class="sentence">
+              <span>7</span> I've got <input type="text" class="a-an-input" data-answer="a" size="4" placeholder="___"> teddy.
+            </div>
+            <div class="sentence">
+              <span>8</span> My sister's got <input type="text" class="a-an-input" data-answer="an" size="4" placeholder="___"> ice cream.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="submit-section">
+        <button id="submitTest" class="submit-btn">📝 Submit Test</button>
+      </div>
+      
+      <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
